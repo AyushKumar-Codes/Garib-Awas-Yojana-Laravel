@@ -30,6 +30,7 @@ Follow these steps to set up the project on your local machine:
 
 ```bash
 git clone https://github.com/AyushKumar-Codes/Garib-Awas-Yojana-Laravel.git
+```
 2. Install Dependencies
 
 cd mis-rural-housing
@@ -40,15 +41,14 @@ npm install
 cp .env.example .env
 Update the .env file with your database configuration:
 
-env
-Copy
-Edit
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=your_database_name
 DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
+
 4. Generate Application Key
 
 php artisan key:generate
